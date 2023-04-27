@@ -8,7 +8,6 @@ export const Cadastro = () => {
   const [free, setFree] = useState(true)
   const [plus, setPlus] = useState(false)
 
-
   const validateCardNumber = (cardNumber) => {
     const regex = /^[0-9]{20}$/;
     return regex.test(cardNumber);
